@@ -1,6 +1,6 @@
 interface IProps {
   subTitle: String;
-  title: String;
+  title?: String;
   icon: any;
   color: String;
 }
@@ -16,7 +16,7 @@ const SectionTitle = ({ subTitle, title, icon, color }: IProps) => {
         </span>
         {subTitle}
       </h5>
-      <h2 className="text-3xl leading-[1.2]">{title}</h2>
+      {title && <h2 className="text-3xl leading-[1.2]">{title}</h2>}
     </div>
   );
 };

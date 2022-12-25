@@ -8,6 +8,7 @@ import { BiChevronDown } from "react-icons/bi";
 import { BsCart2, BsSuitHeart } from "react-icons/bs";
 import { CiSearch } from "react-icons/ci";
 import { Link } from "react-router-dom";
+import Button from "../common/Button/Button";
 
 const Header = () => {
   return (
@@ -98,13 +99,12 @@ const Header = () => {
             </h2>
             <div>
               <div className="flex items-center gap-8">
-                <Link
-                  to="#"
-                  className="flex items-center gap-4 text-base font-bold text-[#292930] py-5 px-9 bg-white rounded-md hover:scale-110 transition-all"
-                >
-                  <BsCart2 className="text-2xl font-medium cursor-pointer" />
-                  <span>Shop Now</span>
-                </Link>
+                <Button bg="white" link="/" color="[#292930]">
+                  <span className="flex items-center gap-4 ">
+                    <BsCart2 className="text-2xl font-medium cursor-pointer" />
+                    <span>Shop Now</span>
+                  </span>
+                </Button>
                 <div className="flex items-center gap-3">
                   <div className="flex items-center">
                     <img
