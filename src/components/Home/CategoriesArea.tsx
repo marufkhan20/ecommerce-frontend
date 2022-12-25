@@ -1,4 +1,5 @@
 import { BiCategoryAlt } from "react-icons/bi";
+import Categories from "../Categories/Categories";
 import SectionTitle from "../SectionTitle/SectionTitle";
 
 const CategoriesArea = () => {
@@ -11,6 +12,10 @@ const CategoriesArea = () => {
           icon={<BiCategoryAlt />}
           color="secondary"
         />
+
+        <div className="mt-11">
+          <Categories />
+        </div>
       </div>
     </section>
   );
