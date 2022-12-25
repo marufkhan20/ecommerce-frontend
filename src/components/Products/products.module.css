@@ -1,0 +1,6 @@
+.cart {
+  transition: 1s;
+}
+.product:hover .cart {
+  bottom: 40px;
+}
