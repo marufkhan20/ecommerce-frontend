@@ -1,5 +1,6 @@
 import CategoriesArea from "../components/Home/CategoriesArea";
 import Header from "../components/Home/Header";
+import MostSoldProductArea from "../components/Home/MostSoldProductArea";
 import NewArrivalsArea from "../components/Home/NewArrivalsArea";
 import OfferArea from "../components/Home/OfferArea";
 import ProductsArea from "../components/Home/ProductsArea";
@@ -14,6 +15,7 @@ const Home = () => {
       <ProductsArea />
       <TestimonialsArea />
       <NewArrivalsArea />
+      <MostSoldProductArea />
     </main>
   );
 };

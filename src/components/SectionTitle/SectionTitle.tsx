@@ -3,12 +3,17 @@ interface IProps {
   title?: String;
   icon: any;
   color: String;
+  center?: Boolean;
 }
 
-const SectionTitle = ({ subTitle, title, icon, color }: IProps) => {
+const SectionTitle = ({ subTitle, title, icon, color, center }: IProps) => {
   return (
-    <div>
-      <h5 className={`text-${color} text-sm mb-3 flex items-center gap-2`}>
+    <div className={center && "text-center"}>
+      <h5
+        className={`text-${color} text-sm mb-3 flex items-center gap-2 ${
+          center && "justify-center"
+        }`}
+      >
         <span
           className={`h-6 w-6 rounded-full bg-${color} text-white flex items-center justify-center`}
         >
