@@ -1,0 +1,11 @@
+.testiCard::before {
+  content: "";
+  position: absolute;
+  bottom: 5px;
+  left: 100px;
+  width: 136px;
+  height: 45px;
+  background-color: #fff;
+  transform: rotate(140deg);
+  z-index: -1;
+}
