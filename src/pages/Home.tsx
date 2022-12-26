@@ -5,6 +5,7 @@ import NewArrivalsArea from "../components/Home/NewArrivalsArea";
 import OfferArea from "../components/Home/OfferArea";
 import ProductsArea from "../components/Home/ProductsArea";
 import TestimonialsArea from "../components/Home/TestimonialsArea";
+import WhyChooseArea from "../components/Home/WhyChooseArea";
 
 const Home = () => {
   return (
@@ -16,6 +17,7 @@ const Home = () => {
       <TestimonialsArea />
       <NewArrivalsArea />
       <MostSoldProductArea />
+      <WhyChooseArea />
     </main>
   );
 };

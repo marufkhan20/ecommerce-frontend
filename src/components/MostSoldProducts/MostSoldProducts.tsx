@@ -33,6 +33,23 @@ const MostSoldProducts = () => {
         title="Media Remote"
         price={29.0}
       />
+
+      <MostSoldProductItem
+        image="product-04.png"
+        rating={5}
+        totalRating={100}
+        title="Media Remote"
+        price={29.0}
+        oldPrice={49.99}
+      />
+      <MostSoldProductItem
+        image="product-03.png"
+        rating={5}
+        totalRating={100}
+        title="Media Remote"
+        price={29.0}
+        oldPrice={49.99}
+      />
     </div>
   );
 };
