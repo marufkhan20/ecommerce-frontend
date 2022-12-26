@@ -11,7 +11,7 @@ const MostSoldProductArea = () => {
           title="Most Sold in eTrade Store"
           center={true}
           icon={<BsFillStarFill />}
-          color="light-primary"
+          color="lightPrimary"
         />
 
         <div className="mt-12">

@@ -10,7 +10,7 @@ const NewArrivalsArea = () => {
           title="New Arrivals"
           subTitle="This Week’s"
           icon={<BsInboxes />}
-          color="light-primary"
+          color="lightPrimary"
         />
         <div className="mt-12">
           <NewArrivals />

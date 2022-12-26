@@ -11,7 +11,7 @@ const ProductsArea = () => {
           subTitle="Our Products"
           title="Explore our Products"
           icon={<BsInboxes />}
-          color="light-primary"
+          color="lightPrimary"
         />
         <div className="mt-12">
           <Products />
