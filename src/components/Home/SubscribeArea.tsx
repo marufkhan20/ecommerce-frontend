@@ -3,7 +3,7 @@ import SectionTitle from "../SectionTitle/SectionTitle";
 
 const SubscribeArea = () => {
   return (
-    <section>
+    <section className="mb-10">
       <div className="container mx-auto">
         <div
           className="p-24 w-full rounded-md"
