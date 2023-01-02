@@ -9,7 +9,7 @@ import { GrFacebookOption } from "react-icons/gr";
 import { TfiEmail } from "react-icons/tfi";
 import { Link } from "react-router-dom";
 
-const FooterArea = () => {
+const Footer = () => {
   return (
     <footer>
       <div className="container mx-auto">
@@ -128,4 +128,4 @@ const FooterArea = () => {
   );
 };
 
-export default FooterArea;
+export default Footer;
