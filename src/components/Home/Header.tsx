@@ -1,13 +1,6 @@
-import {
-  AiFillFire,
-  AiFillStar,
-  AiOutlineStar,
-  AiOutlineUser,
-} from "react-icons/ai";
+import { AiFillFire, AiFillStar, AiOutlineStar } from "react-icons/ai";
 import { BiChevronDown } from "react-icons/bi";
-import { BsCart2, BsSuitHeart } from "react-icons/bs";
-import { CiSearch } from "react-icons/ci";
-import { Link } from "react-router-dom";
+import { BsCart2 } from "react-icons/bs";
 import Button from "../common/Button/Button";
 
 const Header = () => {
@@ -38,54 +31,10 @@ const Header = () => {
         </div>
 
         {/* navigation */}
-        <div className="flex justify-between items-center bg-white py-5 px-8 rounded-xl">
-          <div>
-            <Link to="/">
-              <img src="/assets/logo.png" alt="logo" />
-            </Link>
-          </div>
-          <div>
-            <nav>
-              <ul className="flex items-center gap-11 text-[15px] text-black font-bold">
-                <li className="border-b-2 border-transparent hover:border-border-dark transition-all">
-                  <Link to="/">Home</Link>
-                </li>
-                <li className="border-b-2 border-transparent hover:border-border-dark transition-all">
-                  <Link to="/">Shop</Link>
-                </li>
-                <li className="border-b-2 border-transparent hover:border-border-dark transition-all">
-                  <Link to="/">Pages</Link>
-                </li>
-                <li className="border-b-2 border-transparent hover:border-border-dark transition-all">
-                  <Link to="/">About</Link>
-                </li>
-                <li className="border-b-2 border-transparent hover:border-border-dark transition-all">
-                  <Link to="/">Blog</Link>
-                </li>
-                <li className="border-b-2 border-transparent hover:border-border-dark transition-all">
-                  <Link to="/">Contact</Link>
-                </li>
-              </ul>
-            </nav>
-          </div>
-          <div className="flex items-center gap-2">
-            <li className="p-3 rounded-full transition-all hover:bg-secondary cursor-pointer hover:text-white text-black">
-              <CiSearch className="text-2xl font-medium cursor-pointer" />
-            </li>
-            <li className="p-3 rounded-full transition-all hover:bg-secondary cursor-pointer hover:text-white text-black">
-              <BsSuitHeart className="text-2xl font-medium cursor-pointer" />
-            </li>
-            <li className="p-3 rounded-full transition-all hover:bg-secondary cursor-pointer hover:text-white text-black">
-              <BsCart2 className="text-2xl font-medium cursor-pointer" />
-            </li>
-            <li className="p-3 rounded-full transition-all hover:bg-secondary cursor-pointer hover:text-white text-black">
-              <AiOutlineUser className="text-2xl font-medium cursor-pointer" />
-            </li>
-          </div>
-        </div>
+        {/* <Navigation /> */}
 
         {/* header banner */}
-        <div className="flex items-center justify-between py-28">
+        <div className="flex items-center justify-between py-28 mt-20">
           <div className="w-[40%]">
             <h5 className="text-secondary text-sm mb-4 flex items-center gap-2">
               <span className="h-6 w-6 rounded-full bg-secondary text-white flex items-center justify-center">
